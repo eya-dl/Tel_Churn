@@ -1,0 +1,40 @@
+Feature,Mean_Absolute_SHAP
+num__Contract_Month-to-month,0.08002930373695127
+num__tenure,0.06275243872013164
+num__MonthlyCharges,0.04219321759369535
+num__InternetService_Fiber optic,0.041933735119480106
+num__TotalCharges,0.039452992844893495
+num__TechSupport_No,0.0277597185441773
+num__PaymentMethod_Electronic check,0.023088901239911495
+num__OnlineSecurity,0.020975426646204623
+num__MultipleLines,0.018858971295152384
+num__PaperlessBilling,0.017977490422881964
+num__Contract_Two year,0.01582590205622764
+num__PhoneService,0.012279959445716915
+num__SeniorCitizen,0.008829588948798966
+num__Dependents,0.00843530443756899
+num__InternetService_DSL,0.008234072667127472
+num__StreamingMovies_Yes,0.008226184684175925
+num__OnlineBackup,0.007674773297497202
+num__StreamingTV_No,0.0068134552754175615
+num__gender,0.006280888583238026
+num__StreamingTV_Yes,0.006054464942265866
+num__Contract_One year,0.005436869925233378
+num__InternetService_No,0.004867130006046013
+num__Partner,0.004224086235466772
+num__PaymentMethod_Mailed check,0.003435911591047139
+num__PaymentMethod_Bank transfer (automatic),0.003358023288253508
+cat__TenureGroup_0-12 mois,0.003263488410727586
+num__PaymentMethod_Credit card (automatic),0.0030801695900350753
+num__DeviceProtection_Yes,0.002485010471180917
+num__DeviceProtection_No,0.0022443639834168914
+num__TechSupport_Yes,0.0022323768343262287
+num__HighMonthlyCharges,0.001962017731062953
+num__StreamingMovies_No,0.0016352757005345963
+cat__TenureGroup_49-72 mois,0.0013458275008160865
+cat__TenureGroup_13-24 mois,0.0012551205175613473
+cat__TenureGroup_25-48 mois,0.0011369056766641732
+num__DeviceProtection_No internet service,0.0010197058681893389
+num__TechSupport_No internet service,0.0
+num__StreamingTV_No internet service,0.0
+num__StreamingMovies_No internet service,0.0
