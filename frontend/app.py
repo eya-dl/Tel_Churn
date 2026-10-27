@@ -9,6 +9,7 @@ from __future__ import annotations
 import json
 import os
 from typing import Any
+import os
 
 import numpy as np
 import pandas as pd
@@ -16,7 +17,10 @@ import plotly.graph_objects as go
 import requests
 import streamlit as st
 
-API_URL = os.getenv("CHURN_API_URL", "http://127.0.0.1:8000").rstrip("/")
+API_URL = os.getenv(
+    "CHURN_API_URL",
+    os.getenv("API_URL", "http://127.0.0.1:8000")
+).rstrip("/")
 C_CHURN, C_OK, C_NEUTRAL = "#E4572E", "#2E86AB", "#8D99AE"
 
 st.set_page_config(page_title="Telco Churn — Évaluation du modèle", page_icon="📊", layout="wide")
