@@ -2,7 +2,7 @@
 # Data manipulation
 pandas
 numpy
-
+plotly
 # Data visualization
 matplotlib
 seaborn
@@ -28,4 +28,7 @@ jupyter
 ipykernel
 lime
 
-fastapi uvicorn streamlit requests
+fastapi
+uvicorn
+streamlit
+requests
